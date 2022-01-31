@@ -1,0 +1,127 @@
+  >>>>> Start of Main Loop, NSTEP =            1
+  Time Step ending at  8.3333336E-02   Hours 
+  PP2(7,7)   1.2727571E+08  1.3586112E+08  1.5056944E+08  1.5350062E+08
+   1.4026618E+08
+  CHECK: RR2:            1   2091.837    
+  CHECK: RR2:            2   2081.633    
+  CHECK: RR2:            3   2029.592    
+  CHECK: RR2:            4   1919.388    
+  CHECK: RR2:            5   1700.000    
+  PMID2(7,7)    7541.529       29535.03       50189.81       69773.01    
+    87666.36    
+  RHO     0.4525288      0.6765306      0.8724490       1.062500    
+  TEMP     227.4098       258.4915       278.6541       287.4896    
+ DivM(7,7),lev: 1  -3.112E-02 sumdiv,absdiv :  -1.455E-03   1.616E-02 61
+ DivM(7,7),lev: 2   1.118E-02 sumdiv,absdiv :   2.570E-05   1.332E-02 61
+ DivM(7,7),lev: 3  -2.250E-02 sumdiv,absdiv :   6.305E-04   1.095E-02 61
+ DivM(7,7),lev: 4  -3.546E-03 sumdiv,absdiv :  -2.006E-04   7.469E-03 61
+ DivM(7,7),lev: 5  -2.269E-02 sumdiv,absdiv :  -3.474E-04   1.077E-02 61
+  DSAVE:  -3.5455038E-03
+ Pressure Tendency (7,7)   6.730E-01 Pa/s
+ Pressure Tendency (7,7)       145.4 mb/6h
+ DivV(7,7),lev: 1  -1.488E-05 sumdiv,absdiv :  -1.110E-06   8.937E-06 41
+ DivV(7,7),lev: 2   5.370E-06 sumdiv,absdiv :   4.041E-07   7.189E-06 41
+ DivV(7,7),lev: 3  -1.108E-05 sumdiv,absdiv :  -3.075E-07   5.816E-06 41
+ DivV(7,7),lev: 4  -1.847E-06 sumdiv,absdiv :  -7.900E-07   4.674E-06 41
+ DivV(7,7),lev: 5  -1.335E-05 sumdiv,absdiv :  -8.840E-07   6.817E-06 41
+ Noise Params, N1 N2 Br :    3.913E-06   6.687E-06    58.5%   NSTEP:   1
+ N1 N2 Br at mid-point  :    3.579E-05   4.653E-05    76.9%
+ DWDZ:   4.252168E-06  -1.156993E-05   6.838191E-06  -2.578976E-06   8.801562E-06
+ DwDz:   4.290532E-06  -1.153157E-05   6.804357E-06  -2.611760E-06   8.782964E-06
+  W2 :  -2.527759E-02   2.776763E-02   7.354558E-03   1.310043E-02  -9.523113E-04
+ Temperature Tendency (7,7)   9.096E-04 K/s
+ Temperature Tendency (7,7)        19.6 K/6h
+  T2I  (7,7)    219.7049       242.9507       268.5728       283.0719    
+    291.9073    
+  RHO2I(7,7)   0.3251114      0.5865747      0.7886571      0.9797933    
+    1.148997    
+  MH(7,7)  -8.2180314E-03  1.6287791E-02  5.8002239E-03  1.2835714E-02
+  -1.0942031E-03
+  BRAKET    8.2180314E-03 -2.4505822E-02  1.0487567E-02 -7.0354901E-03
+   1.2835714E-02
+  DRR2DT            1  2.2898402E-02   494.6055    
+  DRR2DT            2  1.3328137E-02   287.8878    
+  DRR2DT            3  1.2007552E-02   259.3631    
+  DRR2DT            4  1.0580994E-02   228.5495    
+  DRR2DT            5  9.8582404E-03   212.9380    
+PPPPP: DDP, HORIZ, VERT     48.5    65.9   -17.4
+PPPPP: DDP, HORIZ, VERT     28.2   -23.7    51.9
+PPPPP: DDP, HORIZ, VERT     25.4    47.6   -22.2
+PPPPP: DDP, HORIZ, VERT     22.4     7.5    14.9
+PPPPP: DDP, HORIZ, VERT     20.9    48.0   -27.2
+:::::::  SUMS           145.4   145.4     0.0
+ DP2DT, Lev 1        48.5 mb/6h
+ DP2DT, Lev 2        76.7 mb/6h
+ DP2DT, Lev 3       102.1 mb/6h
+ DP2DT, Lev 4       124.5 mb/6h
+ DP2DT, Lev 5       145.4 mb/6h
+ Pressure Tendency (7,7)   6.730E-01 Pa/s
+ Pressure Tendency (7,7)       145.4 mb/6h ### NSTEP:   1
+  MMMMM:  Solution of Momentum Equations 
+MMM: Momentum Tendency, Level: 1
+  DDXP, DDYP    3.111571       2.527848    
+  CORX, CORY   0.2022689     -0.6292812    
+  SPHERIC     -1.8286768E-03  2.5507137E-03
+  FLUX(east)  5.1118966E-02 -6.0704787E-04
+  FLUX(nrth)  2.0866675E-02 -3.7962757E-02
+  WFLUX UPR   0.0000000E+00  0.0000000E+00
+  WFLUX LWR  -6.1920855E-02 -2.4528120E-02
+MMM: Momentum Tendency, Level: 2
+  DDXP, DDYP   0.4855597     -0.2195420    
+  CORX, CORY   0.6967041      -1.640626    
+  SPHERIC     -1.6486200E-02  1.5910676E-02
+  FLUX(east) -0.3413975      0.4180378    
+  FLUX(nrth) -9.8067904E-03  5.4688662E-02
+  WFLUX UPR   6.1920855E-02  2.4528120E-02
+  WFLUX LWR   4.6187624E-02  6.1282362E-03
+MMM: Momentum Tendency, Level: 3
+  DDXP, DDYP   0.9438640      0.2304052    
+  CORX, CORY  -0.3258778      -1.067531    
+  SPHERIC      5.1410897E-03  7.6360577E-03
+  FLUX(east) -0.2706841      0.2471578    
+  FLUX(nrth)  0.1488300     -0.1343863    
+  WFLUX UPR  -4.6187624E-02 -6.1282362E-03
+  WFLUX LWR   2.2615008E-02 -1.3608531E-02
+MMM: Momentum Tendency, Level: 4
+  DDXP, DDYP    1.253185      0.7886258    
+  CORX, CORY  -0.6517555     -0.5843325    
+  SPHERIC      5.9351432E-03 -6.4940227E-04
+  FLUX(east) -4.6867762E-02  4.1168839E-02
+  FLUX(nrth)  5.4017778E-02 -4.1156404E-02
+  WFLUX UPR  -2.2615008E-02  1.3608531E-02
+  WFLUX LWR   4.0812947E-02 -2.8233916E-02
+MMM: Momentum Tendency, Level: 5
+  DDXP, DDYP    1.504625       1.029405    
+  TM1X, TM1Y   -21.51793       49.72276    
+  TERM2X, TERM2Y    23.02256      -48.69336    
+  CORX, CORY  -0.6180440      -1.236088    
+  SPHERIC      1.2430718E-02  9.3230391E-03
+  FLUX(east)  0.2180082     -0.1836024    
+  FLUX(nrth) -3.5783801E-02  2.5325349E-02
+  WFLUX UPR  -4.0812947E-02  2.8233916E-02
+  WFLUX LWR  -0.0000000E+00 -0.0000000E+00
+Momentum Tendencies:(  -3.32  -1.84)kg/m/s; ( -71.8 -39.7)T/m/6h
+UUUUU:  DU, PGF, COR, RES    -71.8   -67.2    -4.4    -0.2
+VVVVV:  DV, PGF, COR, RES    -39.7   -54.6    13.6     1.3
+Momentum Tendencies:(  -0.92   1.34)kg/m/s; ( -19.9  29.0)T/m/6h
+UUUUU:  DU, PGF, COR, RES    -19.9   -10.5   -15.0     5.6
+VVVVV:  DV, PGF, COR, RES     29.0     4.7    35.4   -11.2
+Momentum Tendencies:(  -0.48   0.74)kg/m/s; ( -10.3  15.9)T/m/6h
+UUUUU:  DU, PGF, COR, RES    -10.3   -20.4     7.0     3.0
+VVVVV:  DV, PGF, COR, RES     15.9    -5.0    23.1    -2.2
+Momentum Tendencies:(  -0.63  -0.19)kg/m/s; ( -13.7  -4.1)T/m/6h
+UUUUU:  DU, PGF, COR, RES    -13.7   -27.1    14.1    -0.7
+VVVVV:  DV, PGF, COR, RES     -4.1   -17.0    12.6     0.3
+Momentum Tendencies:(  -1.04   0.33)kg/m/s; ( -22.5   7.1)T/m/6h
+UUUUU:  DU, PGF, COR, RES    -22.5   -32.5    13.3    -3.3
+VVVVV:  DV, PGF, COR, RES      7.1   -22.2    26.7     2.6
+  EPSILON    0.1000000    
+ NsteP=     1   LeveL=1   P2/MU2/MV2/      20534.5    -6246.7  -6026.5
+ NsteP=     1   LeveL=2   P2/MU2/MV2/      40947.9   -14555.9  -4991.5
+ NsteP=     1   LeveL=3   P2/MU2/MV2/      60857.1   -10010.5   2821.4
+ NsteP=     1   LeveL=4   P2/MU2/MV2/      79728.5    -4833.4   5484.7
+ NsteP=     1   LeveL=5   P2/MU2/MV2/      96553.7   -10160.0   5702.7
+ NsteP=     1   TTOP2/       212.7
+ NsteP=     1 Area, MASS, pMEAN:   7.841E+12   7.744E+17       987.6
+ True Pressure Tendency (7,7)   9.791E-01 Pa/s
+True Pressure Tendency (7,7)       211.5 mb/6h #%# NSTEP:   1

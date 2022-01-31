@@ -1,0 +1,11 @@
+cp richie.cds.nilrun richie.cds
+richie.x > richie.lpt.nil
+mv graf.dat graf.nil
+
+cp richie.cds.hfirun richie.cds
+richie.x > richie.lpt.hfi
+mv graf.dat graf.hfi
+
+cp richie.cds.dolrun richie.cds
+richie.x > richie.lpt.dol
+mv graf.dat graf.dol

@@ -1,0 +1,10 @@
+This directory contains code from https://maths.ucd.ie/~plynch/Dream/Fortran/Model.html
+
+It has been slightly modified, in order to run it and to change the gridsize and the data that is used as input.
+
+The main program is "richie". The executable richie.x
+is made by executing the command file "richie.sh"
+
+It may be run as "richie.x > richie.lpt" when the
+output will be captured in "richie.lpt".
+

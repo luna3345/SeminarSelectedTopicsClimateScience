@@ -1,0 +1,20 @@
+#  Do the Uninitialized run.
+cp richie.cds.nil.run24 richie.cds
+richie.x > richie.lpt.nil.run24
+#   grep '###' richie.lpt.nil.run24
+mv graf.dat graf.24.nil
+mv FCST00 FCST00.24.nil
+mv FCST06 FCST06.24.nil
+mv FCST12 FCST12.24.nil
+mv FCST24 FCST24.24.nil
+
+#  Do the Initialized run.
+cp richie.cds.dol.run24 richie.cds
+richie.x > richie.lpt.dol.run24
+#   grep '###' richie.lpt.dol.run24
+mv graf.dat graf.24.dol
+mv FCST00 FCST00.24.dol
+mv FCST06 FCST06.24.dol
+mv FCST12 FCST12.24.dol
+mv FCST24 FCST24.24.dol
+

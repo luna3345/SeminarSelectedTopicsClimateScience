@@ -1,0 +1,25 @@
+#  Do the Uninitialized run.
+cp richie.cds.nil.run01 richie.cds
+richie.x > richie.lpt.nil.run01
+grep '###' richie.lpt.nil.run01
+mv graf.dat graf.nil
+mv FCST00 FCST00.nil
+mv FCST01 FCST01.nil
+# mv FCST06 FCST06.nil
+
+# Perform the filtering
+cp richie.cds.dol.bak richie.cds
+richie.x > richie.lpt.dol.bak
+cp richie.cds.dol.for richie.cds
+richie.x > richie.lpt.dol.for
+rm FINI1
+mv FINIT FINIT.dol
+
+#  Do the Initialized run.
+cp richie.cds.dol.run01 richie.cds
+richie.x > richie.lpt.dol.run01
+grep '###' richie.lpt.dol.run01
+mv graf.dat graf.dol
+mv FCST00 FCST00.dol
+mv FCST01 FCST01.dol
+# mv FCST06 FCST06.dol
